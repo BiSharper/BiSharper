@@ -1,0 +1,18 @@
+[submodule "src/lib/core/bisharper-common"]
+	path = src/lib/core/bisharper-common
+	url = https://github.com/BiSharper/BiSharper-Common
+[submodule "src/lib/core/bisharper-filesystem"]
+	path = src/lib/core/bisharper-filesystem
+	url = https://github.com/BiSharper/BiSharper-FileSystem
+[submodule "src/lib/core/bisharper-workspace"]
+	path = src/lib/core/bisharper-workspace
+	url = https://github.com/BiSharper/BiSharper-Workspace
+[submodule "src/lib/lang/bisharper-enforce"]
+	path = src/lib/lang/bisharper-enforce
+	url = https://github.com/BiSharper/BiSharper-Enforce
+[submodule "src/lib/lang/bisharper-param"]
+	path = src/lib/lang/bisharper-param
+	url = https://github.com/BiSharper/BiSharper-Param
+[submodule "src/lib/structures/bisharper-bank"]
+	path = src/lib/structures/bisharper-bank
+	url = https://github.com/BiSharper/BiSharper-Bank

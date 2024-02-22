@@ -1,0 +1,1 @@
+&FilterMap<Filter<std::collections::hash_map::Iter<'_, String, GfsEntry<GameFileMeta>>, {closure@src\lib\core\bisharper-filesystem\src\implementation.rs:41:21: 41:37}>, {closure@src\lib\core\bisharper-filesystem\src\implementation.rs:42:25: 42:41}>
