@@ -1,9 +1,6 @@
 [submodule "src/lib/core/bisharper-common"]
 	path = src/lib/core/bisharper-common
 	url = https://github.com/BiSharper/BiSharper-Common
-[submodule "src/lib/core/bisharper-filesystem"]
-	path = src/lib/core/bisharper-filesystem
-	url = https://github.com/BiSharper/BiSharper-FileSystem
 [submodule "src/lib/core/bisharper-workspace"]
 	path = src/lib/core/bisharper-workspace
 	url = https://github.com/BiSharper/BiSharper-Workspace
@@ -16,3 +13,9 @@
 [submodule "src/lib/structures/bisharper-bank"]
 	path = src/lib/structures/bisharper-bank
 	url = https://github.com/BiSharper/BiSharper-Bank
+[submodule "src/lib/core/bisharper-gfs"]
+	path = src/lib/core/bisharper-gfs
+	url = https://github.com/BiSharper/BiSharper-GFS
+[submodule "src/lib/external/rfsa"]
+	path = src/lib/external/rfsa
+	url = https://github.com/BiSharper/RFSA

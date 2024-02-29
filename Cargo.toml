@@ -1,8 +1,9 @@
 [workspace]
 
 members = [
+    "src/lib/external/rfsa",
     "src/lib/core/bisharper-common",
-    "src/lib/core/bisharper-filesystem",
+    "src/lib/core/bisharper-gfs",
     "src/lib/core/bisharper-workspace",
     "src/lib/structures/bisharper-bank",
     "src/lib/lang/bisharper-param",
