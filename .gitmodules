@@ -19,3 +19,7 @@
 [submodule "src/lib/external/rfsa"]
 	path = src/lib/external/rfsa
 	url = https://github.com/BiSharper/RFSA
+[submodule "src/lib/external/bex"]
+	path = src/lib/external/bex
+	url = https://github.com/BiSharper/bex
+	branch = v0.1.11
