@@ -10,6 +10,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/lib/lang/bisharper-param/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lib/structures/bisharper-bank/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lib/core/bisharper-filesystem/macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/core/bisharper-gfs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/external/bex/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/external/rfsa/macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/external/rfsa/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/external/bex/macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/bisharper-core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/bisharper-formats/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

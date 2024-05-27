@@ -7,12 +7,8 @@
     </profile>
   </component>
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/frontend" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/lib/core/bisharper-common" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/lib/core/bisharper-filesystem" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/lib/core/bisharper-workspace" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/lib/lang/bisharper-enforce" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/lib/lang/bisharper-param" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/lib/structures/bisharper-bank" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lib/external/rfsa" vcs="Git" />
   </component>
 </project>

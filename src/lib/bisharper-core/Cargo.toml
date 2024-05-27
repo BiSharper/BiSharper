@@ -1,0 +1,41 @@
+[package]
+name = "bisharper-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.58"
+tinyvec = { version =  "1.6.0", optional = true }
+rfsa = { path = "../external/rfsa", optional = true }
+byteorder = { version = "1.5.0", optional = true }
+chumsky = { version = "1.0.0-alpha.7", optional = true, features = [] }
+
+[features]
+default = ["filesystems", "param", "enforce", "preprocessors" ]
+compression-common = ["byteorder"]
+compression-rap = ["compression-common"]
+compression-lzss = ["compression-common"]
+parse-utils = []
+chum-utils = ["chumsky"]
+
+filesystems = ["filesystem-bank", "filesystem-game"]
+filesystem-common = ["rfsa"]
+filesystem-bank = ["filesystem-common", "compression-lzss"]
+filesystem-game = ["filesystem-common"]
+
+preprocessors = ["preprocessor-rv", "preprocessor-enf"]
+preprocessor-common = ["parse-utils"]
+preprocessor-rv = ["tinyvec", "preprocessor-common", "filesystem-common"]
+preprocessor-enf = ["preprocessor-common"]
+
+param = ["param-patch", "param-computed" ]
+param-common = []
+param-patch = ["param-common", "chum-utils", "byteorder", "compression-rap"]
+param-computed = ["param-common"]
+
+enforce = ["enforce-ast", "enforce-syntax"]
+enforce-ast = []
+enforce-syntax = ["enforce-ast", "preprocessor-common", "chumsky"]
+
